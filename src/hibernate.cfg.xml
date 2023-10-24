@@ -29,5 +29,11 @@
         <mapping class="hibernate.Direccion.Direccion"/>
         <mapping resource="hibernate/Direccion/Direccion.hbm.xml"/>
 
+        <mapping class="hibernate.Asignatura.Asignatura"/>
+        <mapping resource="hibernate/Asignatura/Asignatura.hbm.xml"/>
+
+        <mapping class="hibernate.CorreoElectronico.CorreoElectronico"/>
+        <mapping resource="hibernate/CorreoElectronico/CorreoElectronico.hbm.xml"/>
+
     </session-factory>
 </hibernate-configuration>
